@@ -2,11 +2,6 @@ pipeline {
     agent any
     stages {
         stage('Build Jar') {
-            agent {
-                docker {
-                    args '-v $HOME/.m2:/root/.m2'
-                }
-            }
             steps {
                 sh 'mvn clean package -DskipTests'
             }
