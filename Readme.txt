@@ -13,3 +13,11 @@ Pull below images{
  Create separate jenkins folder and go to the folder -> open command or terminal
  enter, docker run -p 8080:8080 -p 50000:50000 -v "/Users/apple/jenkins:/var/jenkins_home" jenkins/jenkins:lts
  Now create a separate folder for slave
+ 
+ Now setup the jenkins and download all required softwares
+ {
+ launch localhost:8080
+ enter the secret key and install required softs
+ }
+ 
+ 
