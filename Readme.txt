@@ -19,5 +19,5 @@ Pull below images{
  launch localhost:8080
  enter the secret key and install required softs
  }
- 
+ -------
  
